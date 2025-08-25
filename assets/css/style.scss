@@ -3,29 +3,19 @@
 
 /* 清爽现代主题 */
 
-/* 颜色变量 */
+/* 颜色变量 - 极简风格 */
 :root {
-  --primary-color: #2563eb;
-  --secondary-color: #64748b;
-  --accent-color: #0ea5e9;
-  --success-color: #10b981;
-  --warning-color: #f59e0b;
-  --danger-color: #ef4444;
+  --primary-color: #333333;
+  --accent-color: #666666;
   
-  --text-primary: #1e293b;
-  --text-secondary: #64748b;
-  --text-muted: #94a3b8;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-muted: #999999;
   
   --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-tertiary: #f1f5f9;
+  --bg-secondary: #fafafa;
   
-  --border-color: #e2e8f0;
-  --border-light: #f1f5f9;
-  
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --border-color: #eeeeee;
 }
 
 /* 基础重置 */
@@ -38,9 +28,9 @@ body {
   padding: 0;
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -61,17 +51,17 @@ body {
 /* 标题样式 */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  line-height: 1.25;
-  margin: 0 0 16px 0;
+  line-height: 1.3;
+  margin: 0 0 12px 0;
   color: var(--text-primary);
 }
 
-h1 { font-size: 2.25rem; margin-bottom: 24px; }
-h2 { font-size: 1.875rem; margin-bottom: 20px; margin-top: 32px; }
-h3 { font-size: 1.5rem; margin-bottom: 16px; margin-top: 24px; }
-h4 { font-size: 1.25rem; margin-bottom: 12px; margin-top: 20px; }
-h5 { font-size: 1.125rem; margin-bottom: 8px; margin-top: 16px; }
-h6 { font-size: 1rem; margin-bottom: 8px; margin-top: 16px; }
+h1 { font-size: 1.8rem; margin-bottom: 16px; }
+h2 { font-size: 1.5rem; margin-bottom: 14px; margin-top: 24px; }
+h3 { font-size: 1.2rem; margin-bottom: 12px; margin-top: 20px; }
+h4 { font-size: 1.1rem; margin-bottom: 10px; margin-top: 16px; }
+h5 { font-size: 1rem; margin-bottom: 8px; margin-top: 14px; }
+h6 { font-size: 0.9rem; margin-bottom: 8px; margin-top: 14px; }
 
 /* 段落和文本 */
 p {
@@ -104,15 +94,14 @@ li {
 
 /* 头部样式 */
 header {
-  background: var(--bg-secondary);
-  border-bottom: 1px solid var(--border-color);
-  padding: 32px 0;
-  margin-bottom: 48px;
+  background: var(--bg-primary);
+  padding: 40px 0 32px 0;
+  margin-bottom: 32px;
 }
 
 header h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 600;
   margin: 0 0 8px 0;
   color: var(--text-primary);
 }
@@ -122,7 +111,7 @@ header h1:before {
 }
 
 header h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--text-secondary);
   margin: 0;
@@ -238,16 +227,28 @@ img {
 /* 响应式设计 */
 @media (max-width: 768px) {
   header h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   
   header h2 {
-    font-size: 1.125rem;
+    font-size: 0.9rem;
   }
   
-  h1 { font-size: 1.875rem; }
-  h2 { font-size: 1.5rem; }
-  h3 { font-size: 1.25rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+  
+  body {
+    font-size: 13px;
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+  }
+  
+  .post-content {
+    font-size: 0.85rem;
+  }
 }
 
 /* 特殊样式 */
@@ -270,16 +271,16 @@ img {
   max-width: 800px;
 }
 
-/* 文章列表样式 */
+/* 文章列表样式 - 极简 */
 .recent-posts, .category-list {
   margin: 32px 0;
 }
 
 .recent-posts h3, .category-list h3 {
   color: var(--text-primary);
-  border-bottom: 2px solid var(--primary-color);
-  padding-bottom: 8px;
-  margin-bottom: 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
 .recent-posts ul, .category-list ul {
@@ -288,45 +289,51 @@ img {
 }
 
 .recent-posts li, .category-list li {
-  background: var(--bg-secondary);
-  margin-bottom: 8px;
-  padding: 12px 16px;
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
-  transition: all 0.2s ease;
+  margin-bottom: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-color);
 }
 
-.recent-posts li:hover, .category-list li:hover {
-  background: var(--bg-tertiary);
-  transform: translateX(4px);
-  box-shadow: var(--shadow-sm);
+.recent-posts li:last-child, .category-list li:last-child {
+  border-bottom: none;
 }
 
 .recent-posts a, .category-list a {
-  font-weight: 500;
+  color: var(--text-primary);
+  font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
+}
+
+.recent-posts a:hover, .category-list a:hover {
+  color: var(--accent-color);
 }
 
 .post-date, .post-count {
-  color: var(--text-secondary);
-  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
-/* 分类页面优化 */
+/* 分类页面优化 - 极简 */
 .category-section {
-  margin: 40px 0;
-  padding: 24px;
-  background: var(--bg-secondary);
-  border-radius: 12px;
-  border-left: 4px solid var(--primary-color);
+  margin: 32px 0;
+  padding: 0 0 24px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.category-section:last-child {
+  border-bottom: none;
 }
 
 .category-section h2 {
   margin-top: 0;
-  color: var(--primary-color);
+  margin-bottom: 16px;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .category-posts {
@@ -335,72 +342,58 @@ img {
 }
 
 .category-posts li {
-  background: var(--bg-primary);
   margin-bottom: 8px;
-  padding: 8px 12px;
-  border-radius: 6px;
-  border: 1px solid var(--border-light);
+  padding: 6px 0;
 }
 
 .category-posts a {
+  color: var(--text-primary);
+  font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 }
 
-/* 徽章样式 */
+.category-posts a:hover {
+  color: var(--accent-color);
+}
+
+/* 徽章样式 - 极简 */
 .badge {
-  background: var(--primary-color);
-  color: white;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 0.75rem;
-  font-weight: 500;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
-/* 卡片样式 */
-.card {
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 24px;
-  margin: 16px 0;
-  box-shadow: var(--shadow-sm);
-  transition: all 0.2s ease;
-}
-
-.card:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
-}
 
 /* 文章页面样式 */
 .post {
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 .post-header {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   padding-bottom: 16px;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .post-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 16px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 12px;
   color: var(--text-primary);
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .post-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
   align-items: center;
   color: var(--text-secondary);
-  font-size: 0.875rem;
+  font-size: 0.8rem;
 }
 
 .post-date, .post-author {
@@ -414,27 +407,27 @@ img {
 }
 
 .category-tag {
-  background: var(--primary-color);
-  color: white;
-  padding: 4px 8px;
-  border-radius: 12px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .post-content {
-  font-size: 1.125rem;
+  font-size: 0.9rem;
   line-height: 1.7;
   color: var(--text-primary);
 }
 
 .post-content p {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .post-content h2, .post-content h3, .post-content h4 {
-  margin-top: 40px;
-  margin-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 12px;
 }
 
 .post-content strong {
