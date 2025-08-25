@@ -26,8 +26,7 @@
 - 性能优化
 
 ### 标准库
-- 常用包详解
-- 最佳实践
+- [Go testing/synctest：并发测试的新解决方案](https://mari0w.github.io/go-home/go%E8%AF%AD%E8%A8%80%E6%B5%8B%E8%AF%95/2025/08/25/Go-testing-synctest-%E5%BA%93%E8%AF%A6%E8%A7%A3-%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95%E7%9A%84%E6%96%B0%E5%88%A9%E5%99%A8.html)
 
 ### 三方库
 - 流行框架
