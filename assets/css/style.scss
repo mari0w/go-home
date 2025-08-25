@@ -99,6 +99,12 @@ header {
   margin-bottom: 32px;
 }
 
+/* 头部内容与主体内容对齐 */
+.header-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 header h1 {
   font-size: 2rem;
   font-weight: 600;
@@ -279,10 +285,16 @@ img {
   margin-bottom: 48px;
 }
 
-/* 分类页面顶部间距 */
-.content-wrapper > h1:first-child {
-  margin-top: 0;
+/* 页面顶部间距统一 */
+.content-wrapper > h1:first-child,
+.content-wrapper h1:first-child {
+  margin-top: 24px;
   margin-bottom: 32px;
+}
+
+/* 首页内容顶部不需要额外间距 */
+.content-wrapper > .recent-posts:first-child {
+  margin-top: 0;
 }
 
 /* 文章列表样式 - 极简 */
