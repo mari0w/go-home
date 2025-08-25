@@ -4,6 +4,9 @@ layout: default
 
 <article class="post">
   <header class="post-header">
+    <nav class="breadcrumb">
+      <a href="{{ '/' | relative_url }}">← 返回首页</a>
+    </nav>
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
       <span class="post-date">{{ page.date | date: "%-d %B %Y" }}</span>

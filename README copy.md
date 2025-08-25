@@ -1,1 +1,1 @@
-# mari0w.github.io
+> 专注于 Golang 相关文章和资料的开源项目 [go-home](https://github.com/mari0w/go-home) ，欢迎关注！

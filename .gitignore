@@ -2,3 +2,4 @@
 *.lock
 .jekyll-cache
 _site
+CLAUDE.md

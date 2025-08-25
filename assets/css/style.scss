@@ -522,6 +522,22 @@ img {
   border-bottom: 1px solid var(--border-color);
 }
 
+/* 面包屑导航 */
+.breadcrumb {
+  margin-bottom: 8px;
+}
+
+.breadcrumb a {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
 .post-header {
   margin-bottom: 24px;
   padding-bottom: 16px;
