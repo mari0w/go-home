@@ -1,5 +1,7 @@
 title: Mari0w
 description: 全栈工程师学习笔记
+baseurl: "/go-home"
+url: "https://mari0w.github.io"
 show_downloads: false
 show_github: false
 google_analytics:
