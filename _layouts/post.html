@@ -2,12 +2,34 @@
 layout: default
 ---
 
-<br />
-<small>{{ page.date | date: "%-d %B %Y" }} by <a id="a-title" href="{{ '/' | relative_url }}">{{ site.author }}</a></small>
-<h1>{{ page.title }}</h1>
-
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <span class="post-date">{{ page.date | date: "%-d %B %Y" }}</span>
+      <span class="post-author">by <a id="a-title" href="{{ '/' | relative_url }}">{{ site.author }}</a></span>
+      {% if page.categories %}
+        <span class="post-categories">
+          {% for category in page.categories %}
+            <span class="category-tag">{{ category }}</span>
+          {% endfor %}
+        </span>
+      {% endif %}
+    </div>
+  </header>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  {% if page.tags %}
+  <footer class="post-footer">
+    <div class="post-tags">
+      <span>标签: </span>
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </footer>
+  {% endif %}
+</article>

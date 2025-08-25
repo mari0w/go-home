@@ -3,15 +3,22 @@ layout: default
 title: 分类
 ---
 
-<h1>文章分类</h1>
+<h1>📂 文章分类</h1>
 
 {% assign all_categories = site.posts | map: 'categories' | flatten | uniq | compact | sort %}
 {% for category in all_categories %}
-<h2 id="{{ category | slugify }}">{{ category }}</h2>
-<ul>
-{% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" | sort: 'date' | reverse %}
-{% for post in category_posts %}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}</li>
-{% endfor %}
-</ul>
+<div class="category-section">
+  <h2 id="{{ category | slugify }}">{{ category }}</h2>
+  <ul class="category-posts">
+  {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" | sort: 'date' | reverse %}
+  {% for post in category_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <span>{{ post.title }}</span>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </a>
+  </li>
+  {% endfor %}
+  </ul>
+</div>
 {% endfor %}
