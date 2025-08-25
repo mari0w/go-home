@@ -13,7 +13,6 @@ layout: default
 
 <div class="main-container">
   <div class="posts-section">
-    <h2 class="section-title">最新文章</h2>
     {% for post in site.posts limit: 20 %}
     <article class="post-preview">
       <div class="post-content">
@@ -118,12 +117,7 @@ layout: default
   min-width: 0;
 }
 
-.section-title {
-  font-size: 1.8em;
-  margin: 0 0 30px 0;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #333;
-}
+/* 移除section-title样式 */
 
 .post-preview {
   margin-bottom: 35px;
