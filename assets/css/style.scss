@@ -395,27 +395,14 @@ img {
 
 /* 文章页面样式在下面具体定义 */
 
-/* 仓库推广样式 */
-.repo-promotion {
-  background: var(--bg-secondary);
-  padding: 8px 12px;
-  border-radius: 6px;
-  margin-bottom: 24px;
-  font-size: 0.85rem;
+/* 仓库介绍样式 */
+.repo-intro {
   color: var(--text-secondary);
-  text-align: center;
-  border: 1px solid var(--border-color);
-}
-
-.repo-promotion a {
-  color: var(--primary-color);
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.repo-promotion a:hover {
-  color: var(--accent-color);
-  text-decoration: underline;
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .post-header {
