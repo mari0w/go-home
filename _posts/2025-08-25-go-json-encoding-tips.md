@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Go语言encoding/json包实用技巧总结
-categories: [Go]
+categories: [Go标准库]
 tags: [Go, JSON, 编程技巧]
 ---
 
