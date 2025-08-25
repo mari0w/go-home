@@ -68,9 +68,8 @@ layout: home
 <style>
 .main-container {
   width: 100%;
-  max-width: 1400px;
   margin: 20px 0 0 0;
-  padding: 0 40px;
+  padding: 0;
   display: flex;
   gap: 50px;
 }
@@ -78,7 +77,6 @@ layout: home
 .posts-section {
   flex: 1;
   min-width: 0;
-  max-width: 900px;
 }
 
 .section-title {
@@ -160,8 +158,9 @@ layout: home
 
 /* 侧边栏 */
 .sidebar {
-  width: 300px;
+  width: 280px;
   flex-shrink: 0;
+  padding-right: 0;
 }
 
 .widget {

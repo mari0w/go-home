@@ -100,10 +100,11 @@ header {
   margin-bottom: 32px;
 }
 
-/* 头部内容 - 左对齐 */
+/* 头部内容 - 与主体对齐 */
 .header-content {
-  max-width: 1400px;
+  width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 header h1 {
@@ -392,13 +393,13 @@ img {
 
 /* 内容区域优化 - 左对齐 */
 .content-wrapper {
-  max-width: 1400px;
+  width: 100%;
   margin: 0;
 }
 
 /* 主要内容区域 - 左对齐 */
 #main_content {
-  max-width: 1400px;
+  width: 100%;
   margin: 0;
   margin-bottom: 48px;
 }
