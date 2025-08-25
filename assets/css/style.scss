@@ -35,16 +35,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 容器布局 */
+/* 容器布局 - 左对齐 */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 40px;
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 }
 
@@ -99,10 +100,10 @@ header {
   margin-bottom: 32px;
 }
 
-/* 头部内容与主体内容对齐 */
+/* 头部内容 - 左对齐 */
 .header-content {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin: 0;
 }
 
 header h1 {
@@ -389,16 +390,16 @@ img {
   margin-bottom: 8px;
 }
 
-/* 内容区域优化 - 统一居中 */
+/* 内容区域优化 - 左对齐 */
 .content-wrapper {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin: 0;
 }
 
-/* 统一所有主要内容区域居中 */
+/* 主要内容区域 - 左对齐 */
 #main_content {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin: 0;
   margin-bottom: 48px;
 }
 

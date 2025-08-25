@@ -67,16 +67,18 @@ layout: home
 
 <style>
 .main-container {
-  max-width: 1200px;
-  margin: 20px auto 0;
-  padding: 0 20px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 20px 0 0 0;
+  padding: 0 40px;
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .posts-section {
   flex: 1;
   min-width: 0;
+  max-width: 900px;
 }
 
 .section-title {
