@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Go testing/synctest：并发测试的新解决方案
-categories: [Go语言测试]
+categories: [Go标准库]
 tags: [Go1.24, testing, synctest, 并发测试, 虚拟时间, goroutine]
 ---
 
