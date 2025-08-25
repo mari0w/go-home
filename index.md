@@ -1,6 +1,15 @@
 ---
-layout: home
+layout: default
 ---
+
+<div class="site-header">
+  <div class="header-content">
+    <a id="a-title" href="{{ '/' | relative_url }}">
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+    </a>
+    <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+  </div>
+</div>
 
 <div class="main-container">
   <div class="posts-section">
@@ -66,9 +75,39 @@ layout: home
 </div>
 
 <style>
+/* 自定义header样式 */
+.site-header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.site-header h1 {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.site-header h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-header h1 a:hover {
+  color: #0066cc;
+}
+
+.site-header h2 {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #666;
+  margin: 0;
+}
+
 .main-container {
   width: 100%;
-  margin: 10px 0 0 0;
+  margin: 0;
   padding: 0;
   display: flex;
   gap: 50px;
