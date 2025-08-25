@@ -5,8 +5,6 @@ categories: [Go语言测试]
 tags: [Go1.24, testing, synctest, 并发测试, 虚拟时间, goroutine]
 ---
 
-# Go testing/synctest：并发测试的新解决方案
-
 ## 并发测试的常见问题
 
 在 Go 开发中，测试涉及时间、goroutine 协作的代码往往面临以下挑战：
