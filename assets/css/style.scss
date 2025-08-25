@@ -93,9 +93,14 @@ li {
   line-height: 1.6;
 }
 
-/* 隐藏原有header */
-header {
+/* 只隐藏首页的header，保留文章页的header */
+body > header {
   display: none;
+}
+
+/* 确保文章页的post-header正常显示 */
+.post-header {
+  display: block;
 }
 
 /* 头部内容 - 与主体对齐 */
