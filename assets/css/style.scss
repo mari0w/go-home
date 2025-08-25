@@ -266,9 +266,23 @@ img {
   margin-bottom: 8px;
 }
 
-/* 内容区域优化 */
+/* 内容区域优化 - 统一居中 */
 .content-wrapper {
-  max-width: 800px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* 统一所有主要内容区域居中 */
+#main_content {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+/* 分类页面顶部间距 */
+.content-wrapper > h1:first-child {
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 /* 文章列表样式 - 极简 */
@@ -369,8 +383,7 @@ img {
 
 /* 文章页面样式 */
 .post {
-  max-width: 700px;
-  margin: 0 auto;
+  /* 不需要设置宽度和居中，由统一的content-wrapper处理 */
 }
 
 .post-header {
