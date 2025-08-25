@@ -1,0 +1,10 @@
+title: Mari0w
+description: 全栈工程师学习笔记
+show_downloads: false
+show_github: false
+google_analytics:
+theme: jekyll-theme-hacker
+author: Mari0w
+collections:
+  categories:
+    output: true

@@ -1,0 +1,9 @@
+---
+layout: default
+title: 分类
+---
+
+{% assign tech_posts = site.posts | where_exp: "post", "post.categories contains 'tech'" %}
+{% for post in tech_posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
