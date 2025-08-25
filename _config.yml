@@ -7,6 +7,17 @@ show_github: false
 google_analytics:
 theme: jekyll-theme-hacker
 author: Mari0w
+
+# 启用语法高亮
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+
 collections:
   categories:
     output: true
