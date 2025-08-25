@@ -393,9 +393,29 @@ img {
 }
 
 
-/* 文章页面样式 */
-.post {
-  /* 不需要设置宽度和居中，由统一的content-wrapper处理 */
+/* 文章页面样式在下面具体定义 */
+
+/* 仓库推广样式 */
+.repo-promotion {
+  background: var(--bg-secondary);
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.repo-promotion a {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.repo-promotion a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .post-header {
