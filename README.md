@@ -59,6 +59,7 @@
 - 数据结构实现
 
 ### 最佳实践
+- [Go项目目录结构最佳实践指南](https://mari0w.github.io/go-home/go/2025/08/25/go-project-layout-guide.html)
 - 设计模式
 - 代码规范
 - 测试策略
