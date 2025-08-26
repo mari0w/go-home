@@ -24,6 +24,7 @@
   - [微读Go语言接口特性：隐式实现与空接口的威力](https://mari0w.github.io/go-home/%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/2025/08/26/go-interface-features-guide.html)
 - 并发编程
   - [微读Go并发编程：goroutine与channel的高效协作](https://mari0w.github.io/go-home/%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/2025/08/26/go-goroutine-channel-guide.html)
+  - [微读Go语言CSP模型：让并发变得优雅简单](https://mari0w.github.io/go-home/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/2025/08/26/go-csp-model-guide.html)
 - 内存管理
 - 性能优化
 
