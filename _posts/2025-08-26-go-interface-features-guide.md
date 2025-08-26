@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Go语言接口特性深度解析：隐式实现与空接口的威力
+title: 微读Go语言接口特性：隐式实现与空接口的威力
 categories: [语言特性]
 tags: [interface, 隐式实现, 空接口, 类型断言, 多态]
 ---
