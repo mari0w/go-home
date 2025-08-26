@@ -61,9 +61,6 @@
 ### 最佳实践
 - [Go项目目录结构最佳实践指南](https://mari0w.github.io/go-home/go/2025/08/25/go-project-layout-guide.html)
 - [golangci-lint：Go语言代码质量检测的终极工具](https://mari0w.github.io/go-home/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/2025/08/26/golangci-lint-comprehensive-guide.html)
-- 设计模式
-- 代码规范
-- 测试策略
 
 ---
 
