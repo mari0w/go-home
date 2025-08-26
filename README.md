@@ -21,6 +21,7 @@
 
 ### Go语言基础
 - 语言特性
+  - [Go语言接口特性深度解析：隐式实现与空接口的威力](https://mari0w.github.io/go-home/%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/2025/08/26/go-interface-features-guide.html)
 - 并发编程
 - 内存管理
 - 性能优化
