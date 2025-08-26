@@ -34,6 +34,7 @@
 - [Go testing/synctest：并发测试的新解决方案](https://mari0w.github.io/go-home/go%E8%AF%AD%E8%A8%80%E6%B5%8B%E8%AF%95/2025/08/25/Go-testing-synctest-%E5%BA%93%E8%AF%A6%E8%A7%A3-%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95%E7%9A%84%E6%96%B0%E5%88%A9%E5%99%A8.html)
 - [微读Go标准库 - net/url包的高级特性与实用技巧](https://mari0w.github.io/go-home/%E6%A0%87%E5%87%86%E5%BA%93/2025/08/26/go-net-url-advanced-guide.html)
 - [微读 Go 标准库 - net/mail 解析邮件地址与消息格式](https://mari0w.github.io/go-home/%E6%A0%87%E5%87%86%E5%BA%93/2025/01/26/go-stdlib-net-mail.html)
+- [微读 Go 标准库 - net/smtp 发送邮件的简单协议](https://mari0w.github.io/go-home/%E6%A0%87%E5%87%86%E5%BA%93/2025/01/26/go-stdlib-net-smtp.html)
 
 ### 三方库
 - 流行框架
