@@ -1,7 +1,7 @@
 title: GoHome
 description: 专注于Go语言技术分享，提供实用的编程技巧和最佳实践
-baseurl: "/go-home"
-url: "https://mari0w.github.io"
+baseurl: ""
+url: "https://mari0w.dev"
 show_downloads: false
 show_github: false
 google_analytics:

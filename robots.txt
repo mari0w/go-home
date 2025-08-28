@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://mari0w.github.io/go-home/sitemap.xml
+Sitemap: https://mari0w.dev/sitemap.xml
