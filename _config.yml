@@ -21,3 +21,7 @@ kramdown:
 collections:
   categories:
     output: true
+
+# 插件配置
+plugins:
+  - jekyll-sitemap
