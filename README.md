@@ -35,6 +35,7 @@
 - [微读 Go 标准库 - net/url 包的高级特性与实用技巧](https://mari0w.github.io/go-home/%E6%A0%87%E5%87%86%E5%BA%93/2025/08/26/go-net-url-advanced-guide.html)
 - [微读 Go 标准库 - net/mail 解析邮件地址与消息格式](https://mari0w.github.io/go-home/%E6%A0%87%E5%87%86%E5%BA%93/2025/01/26/go-stdlib-net-mail.html)
 - [微读 Go 标准库 - net/smtp 发送邮件的简单协议](https://mari0w.github.io/go-home/%E6%A0%87%E5%87%86%E5%BA%93/2025/01/26/go-stdlib-net-smtp.html)
+- [微读 Go 标准库 - archive/tar 处理 tar 归档文件](https://mari0w.github.io/go-home/%E6%A0%87%E5%87%86%E5%BA%93/2025/08/26/go-archive-tar.html)
 
 ### 三方库
 - 流行框架
