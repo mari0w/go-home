@@ -3,6 +3,8 @@ layout: post
 title: 微读Go标准库 - net/url包的高级特性与实用技巧
 categories: [标准库]
 tags: [net/url, URL解析, 安全, 查询参数]
+description: "深入探索Go net/url包的高级特性：密码自动脱敏、智能路径拼接、IPv6地址处理等实用技巧，让URL处理更安全优雅。"
+permalink: /posts/2025/08/go-net-url-advanced-features-guide/
 ---
 
 你可能每天都在用 `url.Parse()`，但 net/url 包里还藏着很多不为人知的宝藏功能。密码自动脱敏、智能路径拼接、IPv6地址处理...这些高级特性能让你的URL处理代码更安全、更优雅。

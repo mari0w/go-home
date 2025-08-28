@@ -6,3 +6,4 @@ gemspec
 
 gem 'csv', require: 'csv'
 gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'

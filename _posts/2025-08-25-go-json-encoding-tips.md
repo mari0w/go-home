@@ -3,6 +3,8 @@ layout: post
 title: Go语言encoding/json包实用技巧总结
 categories: [Go标准库]
 tags: [Go, JSON, 编程技巧]
+description: "Go encoding/json包的10个实用技巧：包括基础序列化、动态JSON处理、自定义序列化、流式处理和性能优化等高效JSON操作方法。"
+permalink: /posts/2025/08/go-json-encoding-practical-tips/
 ---
 
 Go语言的encoding/json包是处理JSON数据的标准库，除了基础的Marshal和Unmarshal功能外，还提供了许多实用的特性。本文整理了10个常用技巧，帮助开发者更高效地处理JSON数据。

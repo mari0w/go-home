@@ -3,6 +3,8 @@ layout: post
 title: 微读Go并发编程：goroutine与channel的高效协作
 categories: [语言特性]
 tags: [goroutine, channel, 并发编程, CSP模型, 同步]
+description: "深入探讨Go语言的goroutine轻量级线程和channel通信机制，介绍同步异步通信、select语句和工作池模式。"
+permalink: /posts/2025/08/go-goroutine-channel-efficient-cooperation/
 ---
 
 ### 1. goroutine：轻量级线程的魅力

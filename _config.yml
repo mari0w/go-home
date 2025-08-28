@@ -25,3 +25,4 @@ collections:
 # 插件配置
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag

@@ -3,6 +3,8 @@ layout: post
 title: 微读 Go 标准库 - archive/tar 处理 tar 归档文件
 categories: [标准库]
 tags: [archive, tar, 文件压缩, 归档]
+description: "Go archive/tar包提供完整的tar归档文件处理能力，支持创建、解压、流式处理及安全防护，广泛应用于备份和容器场景。"
+permalink: /posts/2025/08/go-archive-tar-handling-guide/
 ---
 
 tar 是 Unix/Linux 系统中最常用的归档格式之一，Go 的 archive/tar 包提供了读写 tar 归档文件的能力。无论是备份数据、分发文件还是容器镜像构建，tar 格式都扮演着重要角色。本文将带你快速掌握 Go 中 tar 文件的处理方法。

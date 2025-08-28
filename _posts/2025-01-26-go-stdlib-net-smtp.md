@@ -3,6 +3,8 @@ layout: post
 title: 微读 Go 标准库 - net/smtp 发送邮件的简单协议
 categories: [标准库]
 tags: [net/smtp, 邮件发送, SMTP, 认证]
+description: "Go net/smtp包实现RFC 5321标准的SMTP协议，支持一键发送邮件、PLAIN认证、HTML邮件和群发功能，是邮件发送的基础工具。"
+permalink: /posts/2025/01/go-net-smtp-email-sending-guide/
 ---
 
 需要用 Go 发送邮件？net/smtp 包实现了 RFC 5321 标准的简单邮件传输协议，让你轻松连接 SMTP 服务器发送邮件。

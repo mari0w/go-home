@@ -3,6 +3,8 @@ layout: post
 title: 微读 Go 标准库 - net/mail 解析邮件地址与消息格式
 categories: [标准库]
 tags: [net/mail, 邮件解析, RFC5322]
+description: "Go net/mail包符合RFC 5322标准，提供邮件地址解析、批量地址列表处理、完整邮件消息读取和日期解析等功能。"
+permalink: /posts/2025/01/go-net-mail-address-message-parsing/
 ---
 
 想要解析邮件地址或处理邮件消息？Go 的 net/mail 包提供了符合 RFC 5322 标准的邮件解析能力，让你轻松处理邮件相关的各种场景。

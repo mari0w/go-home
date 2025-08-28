@@ -3,6 +3,8 @@ layout: post
 title: Go testing/synctest：并发测试的新解决方案
 categories: [Go标准库]
 tags: [Go1.24, testing, synctest, 并发测试, 虚拟时间, goroutine]
+description: "Go 1.24引入的testing/synctest包提供虚拟时间控制和确定性执行，解决并发测试中的不稳定性和测试运行时间长的问题。"
+permalink: /posts/2025/08/go-synctest-concurrent-testing-solution/
 ---
 
 ### 并发测试的常见问题

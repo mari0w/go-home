@@ -3,6 +3,8 @@ layout: post
 title: Go语言编码规范：官方标准与最佳实践
 categories: [最佳实践]
 tags: [Go, 编码规范, 代码风格, gofmt, effective go]
+description: "基于Effective Go和官方文档的Go语言编码规范指南，涵盖代码格式化、命名规范、包设计、错误处理和并发编程最佳实践。"
+permalink: /posts/2025/08/go-coding-standards-best-practices/
 ---
 
 Go语言以其简洁性和一致性著称，官方提供了完整的编码规范指导。本文基于Effective Go和Code Review Comments等官方文档，总结Go语言的核心编码标准和最佳实践。

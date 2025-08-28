@@ -1,0 +1,42 @@
+{% assign maxRelated = 3 %}
+{% assign minCommon = 1 %}
+{% assign maxRelatedCounter = 0 %}
+{% assign relatedPosts = "" | split: "," %}
+
+{% for post in site.posts %}
+  {% if post.url != page.url %}
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% if page.tags contains tag %}
+        {% assign sameTagCount = sameTagCount | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommon %}
+      {% assign relatedPosts = relatedPosts | push: post %}
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if relatedPosts.size > 0 %}
+<div class="related-posts">
+  <h3>相关文章推荐</h3>
+  <ul class="related-posts-list">
+    {% for post in relatedPosts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="related-title">{{ post.title }}</span>
+        <span class="related-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endif %}

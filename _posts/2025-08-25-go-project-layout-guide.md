@@ -3,6 +3,8 @@ layout: post
 title: Go项目目录结构最佳实践指南
 categories: [最佳实践]
 tags: [Go, 项目结构, 工程化]
+description: "基于社区标准的Go项目目录结构最佳实践，涵盖cmd、internal、pkg等核心目录的使用规范，构建可维护的Go项目架构。"
+permalink: /posts/2025/08/go-project-layout-best-practices/
 ---
 
 在Go项目开发中，良好的目录结构对项目的可维护性和团队协作至关重要。本文基于社区广泛认可的项目布局标准，介绍Go项目的目录组织最佳实践。

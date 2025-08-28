@@ -3,6 +3,8 @@ layout: post
 title: 微读Go语言CSP模型：让并发变得优雅简单
 categories: [并发编程]
 tags: [CSP, goroutine, channel, 并发模型, Go并发]
+description: "深入理解Go语言的CSP并发模型，通过通信来共享内存而非通过共享内存来通信，掌握goroutine和channel的优雅协作方式。"
+permalink: /posts/2025/08/go-csp-model-elegant-concurrency/
 ---
 
 Go语言的CSP（Communicating Sequential Processes）模型是其并发编程的核心哲学，彻底改变了我们思考并发的方式。

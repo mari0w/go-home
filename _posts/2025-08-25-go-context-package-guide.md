@@ -3,6 +3,8 @@ layout: post
 title: 深入理解Go语言的context包：优雅管理并发和超时控制
 categories: [Go标准库]
 tags: [context, 并发编程, 超时控制, Go标准库]
+description: "Go context包是管理goroutine生命周期、控制请求超时和传递元数据的标准解决方案，在微服务架构中至关重要。"
+permalink: /posts/2025/08/go-context-package-concurrency-timeout-guide/
 ---
 
 在微服务架构和高并发系统中，如何优雅地管理goroutine的生命周期、控制请求超时、以及在多个服务调用间传递元数据，是每个Go开发者都会面临的挑战。Go语言的context包正是为解决这些问题而生的标准解决方案。
